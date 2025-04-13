@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: node-docker-app  
+    build:
+    ports:
+      - "4000:3000"  
+    restart: always  
